@@ -1,0 +1,126 @@
+Title {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+header p {
+    margin-bottom: 20px;
+    display: inline block;
+    text-align: left;
+}
+
+.shop-link {
+    display: inline-block;
+    padding: 10px 20px;
+    /* background-color: gray; */
+    /* color: white; */
+    /* text-decoration: none; */
+    border-radius: 5px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.features {
+    text-align: center;
+    padding: 40px;
+    background-color: white;
+}
+
+.features h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.features-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.feature-box {
+    flex: 1;
+    margin: 0 20px;
+}
+header img {
+    height: 300px;
+    display: inline;
+}
+#customers{
+    height: 300px;
+}
+
+
+.features img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+/* blockquote {
+    font-style: italic;
+    margin-top: 20px;
+    color: gray;
+} */
+
+.bestselling-chairs {
+    text-align: center;
+    padding: 40px;
+}
+
+.bestselling-chairs h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.chairs-grid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.chair {
+    text-align: center;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.chair img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cart-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    /* background-color: black; */
+    /* color: white; */
+    /* text-decoration: none; */
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+}
